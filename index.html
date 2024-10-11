@@ -14,5 +14,31 @@
     </ul>
     <br>
     <em> And for more information about us <strong><a href="about.html" target="_blank">Click here</a></strong></em>
+    <h2>Cooking survey:</h2>
+    <form action="./about.html">
+        <section>
+            <fieldset>
+            <legend>What is your name?</legend>
+            <label><input id="name" type="text" placeholder="Your name" required></label>
+            </fieldset>
+        </section>
+        <section>
+            <fieldset>
+            <legend>What is your skill level?</legend>
+            <label><input checked id="beginner" type="radio" name="skill-level" value="beginner">Beginner</label>
+            <label><input id="intermediate" type="radio" name="skill-level" value="intermediate">Intermediate</label>
+            <label><input id="expert" type="radio" name="skill-level" value="expert">Expert</label>
+            </fieldset>
+        </section>
+        <section>
+            <fieldset>
+            <legend>What is your goal?</legend>
+            <label><input checked id="homecook" type="checkbox" name="goal" value="homecook"> Homecook</label>
+            <label><input id="Chef" type="checkbox" name="goal" value="chef"> Chef</label>
+            <label><input id="mentor" type="checkbox" name="goal" value="mentor"> Mentor</label>
+            </fieldset>
+        </section>
+        <button type="submit">Submit</button>
+    </form>
 </body>
 </html>
